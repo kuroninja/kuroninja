@@ -1,6 +1,6 @@
 ### Hi there 👋
 <h1> I don't know if this is gonna work but I'm trying it!<h1>
-Here are some ideas to get you started:
+<h2>Here are some ideas to get you started:<h2>
 
 - 🔭 I’m currently working on my Python and general coding skills.
 - 🌱 I’m currently learning Python and HTML.
