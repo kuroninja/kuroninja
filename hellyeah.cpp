@@ -21,9 +21,9 @@ class User {
 int main() {
     User user = User("Julian", 24);
     User user2 = User("Nimish", 27);
-    std::cout << user.name;
-    std::cout << user.age;
-    std::cout << user.isLoggedIn;
+    std::cout << user.name << "\n";
+    std::cout << user.age << "\n";
+    std::cout << user.isLoggedIn << "\n";
     user.changeLoginStatus();
-    std::cout << user.isLoggedIn;
+    std::cout << user.isLoggedIn << "\n";
 }
