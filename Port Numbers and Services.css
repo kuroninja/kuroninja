@@ -1,0 +1,45 @@
+<h1>Port Numbers (TCP, unless noted)</h1>
+<p>21
+FTP commands</p>
+<p>22
+SSH</p>
+<p>23
+Telnet</p>
+<p>25
+SMTP</p>
+<p>53 (TCP or UDP)
+DNS</p>
+<p>80
+HTTP</p>
+<p>88
+Kerberos</p>
+<p>110
+POP3</p>
+<p>111 (TCP or UDP)
+*nix portmapper</p>
+<p>135
+Microsoft Remote Procedure Call (RPC)</p>
+<p>139
+SMB (legacy)</p>
+<p>143
+IMAP4</p>
+<p>161 (TCP or UDP; only UDP is used at this time)
+SNMP</p>
+<p>162 (TCP or UDP; only UDP is used at this time)
+SNMP traps</p>
+<p>389
+LDAP</p>
+<p>443
+HTTPS</p>
+<p>445
+Microsoft-ds (authentication used by SMB)</p>
+<p>3389
+RDP</p>
+<p>110
+POP3</p>
+<p>111 (TCP or UDP)
+*nix portmapper</p>
+<p>135
+Microsoft Remote Procedure Call (RPC)</p>
+<p>139
+SMB (legacy)</p>
