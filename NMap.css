@@ -1,0 +1,52 @@
+<h1>nmap 192.168.74.50</h1>
+<p>"A specific IP Address" = "192.168.0.100"</p>
+<p>"A specific host name" = "www.nmap.org"</p>
+<p>"An entire subnet" = "192.168.0.0/24 or 192.168.0.* or comptia.org/24"</p>
+<p>"An entire network including host" = "www.comptia.org/24"</p>
+<p>"A specific range of IP addresses" = "192.168.0.50-100"</p>
+<p>"A specific of IP addresses and specific host/s = 192.168.0.50-100,1.50"</p>
+  <h1>Discovery Scans</h1>
+<p>-PR</p>
+<p>-sn</p>
+<p>-PS "<portlist>"</p>
+<h1>Nmap Scan Types</h1>
+<p>-h, nmap -h, "Help on Nmap"</p>
+<p>-V, nmap -V, "Nmap version"</p>
+<p>-d, nmap -d 192.168.1.50, "Enable debugging to view all steps of output"</p>
+<p>-sS. nmap -sS 192.168.1.50,"Semd TCP SYN to target for rsponse to check", "Check for TCP 3-way handshake"</p>
+<p>-sV, nmap -sV 192.168.1.50, "Probe open ports for service version"</p>
+<p>-sT, nmap -sT 192.168.1.50, "Complete a TCP 3-way handshake for non-root users"</p>
+<p>-sU, nmap -sU 192.168.1.50, "Do a UDP scan", "Ports that respond are open", "Ports that do not respond are displayed as open|filtered(unknown)","Ports that send an ICMP unreachable error (type 3 code 3) are closed"</p>
+<p>-sL, nmap -sL 192.168.1.50, "List the targets that will be scanned"</p>
+<p>-sA, nmap -sA - www.company.com, "Find out if a host/network is protected by a firewall.", ""Filtered" results indicate port is accessible, but might be open or closed.","Run with -A option to determine if accessible ports are actually open or closed (nmap -sA -A www.comptia.org)"</p>
+<p>-p "<port range>", • nmap -p 80 192.168.1.50
+• nmap -p 80,443 www.company.com
+• nmap -p1024-3000 192.168.1.0/24
+• nmap -p U:53,111,137,T:21-
+25,80,139,443 192.168.1.0/24
+• nmap -p- 192.168.1.50, "Scan only specified port/s"
+"Port status can be OPEN, CLOSED (no service on port), or FILTERED (perhaps a firewall)"
+"UDP ports: U; TCP ports: T; ALL TCP ports: -p-"</p>
+<p>-r, nmap -r 192.168.1.0/24, "Scam ports consecutively; not random"</p>
+<p>--top-ports <number>, nmap --top-ports 200, "Scan top <indicated number> ports"</p>
+<p>-6, • nmap -6 2001:f0d0:1003:51::4
+• nmap -6 scanme.company.com
+• nmap -6 fe80::8d50:86ce:55ad:bc5c, "Scan IPv6 addresses"</p>
+<p>-iL <input file name>,
+nmap -iL /tmp/test.txt,
+"Scan hosts listed in file"</p>
+<p>--exclude,
+map 192.168.1.0/24 --exclude 192.168.1.5,
+"Exclude certain hosts from scan"</p>
+<p>-n,
+nmap -n 192.168.1.0/24,
+"Do not resolve names (time saver)"</p>
+<p>-R,
+nmap -R 192.168.1.0/24,
+"Try to resolve all names with reserved DNS"</p>
+<p>-F (fast mode),
+nmap -F 192.168.1.50,
+"Scan fewer ports than default"</p>
+<p>-O,
+nmap -O 192.168.1.50,
+"Enable OS detection, not always accurate"</p>
